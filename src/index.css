@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-warm-cream: #FAF7F2;
+  --color-deep-slate: #1E293B;
+  --color-terracotta: #C84B31;
+  --color-terracotta-dark: #A6331B;
+  --color-gold: #D97706;
+  --color-warm-border: #E2E8F0;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-warm-cream);
+    color: var(--color-deep-slate);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+.ambient-shadow {
+  box-shadow: 0 4px 20px -2px rgba(30, 41, 59, 0.05);
+}
+
+.ambient-shadow-lg {
+  box-shadow: 0 10px 30px -4px rgba(30, 41, 59, 0.08);
+}

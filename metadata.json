@@ -1,0 +1,6 @@
+{
+  "name": "Boutique Spanish Institute",
+  "description": "Personalized 1-on-1 and group Spanish tutoring for students, professionals, and conversational learners in Austin, TX.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
